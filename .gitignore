@@ -30,3 +30,6 @@ build/
 .Ruserdata
 .Rproj.user/
 .Renviron
+
+# Claude Code working directory
+.claude/
