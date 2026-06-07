@@ -166,6 +166,16 @@ def build_notebook() -> nbf.notebooknode.NotebookNode:
         '| PLUG | Plug Power | Hydrogen / Fuel Cells | $3.6B |\n'
     ))
 
+    cells.append(_md(
+        '**Universe selection rationale:** GE and TSLA are included as '
+        '*transition-economy proxies* — GE via its GE Vernova wind/hydro segment '
+        '(>30% of revenue by 2022), TSLA as the dominant EV manufacturer whose '
+        'valuation is structurally tied to renewable energy adoption narratives. '
+        'Both were covered in mainstream ESG indices (MSCI ESG, S&P 500 ESG) '
+        'throughout the study period, making their earnings-call sentiment directly '
+        'relevant to green-transition investor flows.\n'
+    ))
+
     # ───────────── Section 5: Stationarity Tests ─────────────
     cells.append(_md(
         '## 4. Stationarity Tests (ADF + KPSS)\n\n'
