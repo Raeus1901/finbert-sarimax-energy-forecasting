@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# =============================================================================
+# LEGACY SCRIPT — preserved for methodological transparency only.
+# This file is NOT the reproducible pipeline. See notebooks/Master_Thesis.ipynb
+# Google News scraper no longer functional (post-2024 anti-bot measures).
+# FMP API earnings-surprises endpoint is paywalled as of 2024.
+# =============================================================================
 """
 Corrected & Synthesized Script
 Author: Jean (Modified)
