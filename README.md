@@ -30,7 +30,7 @@
 | Component | Detail |
 |---|---|
 | **Universe** | 5 renewable-energy firms (FSLR, GE, NEE, TSLA, PLUG), 2014–2023 |
-| **Frequency** | Quarterly observations (N=40 per firm; pooled N=114 pre-COVID, N=77 post-COVID) |
+| **Frequency** | Quarterly observations (~N=38 per firm; pooled N=114 pre-COVID, N=77 post-COVID) |
 | **Sentiment engine** | FinBERT (Huang, Wang & Yang 2023) on 2,000+ scraped earnings articles |
 | **Forecasting model** | SARIMAX with exogenous sentiment regressor |
 | **Diagnostics** | Ljung-Box, Jarque-Bera, ADF, KPSS, residual normality |
